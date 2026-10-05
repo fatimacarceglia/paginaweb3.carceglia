@@ -1,0 +1,99 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Animales Salvajes</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<header>
+    <h1>ANIMALES SALVAJES</h1>
+    <p>Descubrí el mundo de los animales más increíbles</p>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="leon.html">León</a>
+    <a href="tigre.html">Tigre</a>
+    <a href="puma.html">Puma</a>
+</nav>
+
+<div class="contenedor">
+
+    <div class="bienvenida">
+        <h2>¡Bienvenidos!</h2>
+        <p>
+            En esta página vas a poder conocer algunos animales salvajes,
+            sus características y el lugar donde viven.
+        </p>
+        <p>
+            Elegí uno de los animales para conocer más sobre él.
+        </p>
+    </div>
+
+    <h2 class="titulo">Nuestros animales</h2>
+
+    <div class="animales">
+
+        <div class="tarjeta leon">
+            <div class="nombre-animal">LEÓN</div>
+            <h2>León</h2>
+            <p>Un felino fuerte y conocido como el rey de la selva.</p>
+            <a href="leon.html" class="boton">Conocer al león</a>
+        </div>
+
+        <div class="tarjeta tigre">
+            <div class="nombre-animal">TIGRE</div>
+            <h2>Tigre</h2>
+            <p>Un felino veloz que se caracteriza por sus rayas.</p>
+            <a href="tigre.html" class="boton">Conocer al tigre</a>
+        </div>
+
+        <div class="tarjeta puma">
+            <div class="nombre-animal">PUMA</div>
+            <h2>Puma</h2>
+            <p>Un felino americano que puede vivir en diferentes lugares.</p>
+            <a href="puma.html" class="boton">Conocer al puma</a>
+        </div>
+
+    </div>
+
+    <div class="formulario">
+
+        <h2>¿Cuál es tu animal favorito?</h2>
+
+        <form>
+
+            <label for="nombre">Tu nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="animal">Elegí tu animal favorito:</label>
+
+            <select id="animal" name="animal">
+                <option value="leon">León</option>
+                <option value="tigre">Tigre</option>
+                <option value="puma">Puma</option>
+            </select>
+
+            <label for="opinion">¿Por qué te gusta?</label>
+
+            <textarea id="opinion" name="opinion" rows="4"></textarea>
+
+            <input type="submit" value="Enviar respuesta">
+
+        </form>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Trabajo práctico - Carceglia</p>
+</footer>
+
+</body>
+</html>
+```
